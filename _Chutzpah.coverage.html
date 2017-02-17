@@ -1,0 +1,445 @@
+
+<html>
+<head>
+    <title>Chutzpah Code Coverage Results</title>
+    <script type='text/javascript'>
+        
+function chutzpah_toggleSource(id) {
+        var element = document.getElementById(id);
+        if(element.style.display === 'block') {
+            element.style.display = 'none';
+        } else {
+            element.style.display = 'block';
+        }
+    }
+
+    </script>
+    <style>
+        
+#chutzpah-main
+{
+  background:#EEE;
+  clear:both;
+  color:#333;
+  font-family:'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Calibri, Helvetica, Arial, sans-serif;
+  font-size:17px;
+  margin:2px;
+}
+
+#chutzpah-main a
+{
+  color:#333;
+  text-decoration:none;
+}
+
+#chutzpah-main a:hover
+{
+  text-decoration:underline;
+}
+
+.chutzpah
+{
+  border-bottom:1px solid #FFF;
+  clear:both;
+  margin:0;
+  padding:5px;
+}
+
+.chutzpah-error
+{
+  color:red;
+}
+
+.chutzpah-success
+{
+  color:#5E7D00;
+}
+
+.chutzpah-file
+{
+  width:auto;
+}
+
+.chutzpah-cl
+{
+  float:left;
+}
+
+.chutzpah div.rs
+{
+  float:right;
+  margin-left:50px;
+  width:150px;
+}
+
+.chutzpah-nb
+{
+  padding-right:10px;
+}
+
+#chutzpah-main a.chutzpah-logo
+{
+  color:#3245FF;
+  cursor:pointer;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.chutzpah-source
+{
+  background-color:#FFF;
+  border:1px solid #CBCBCB;
+  color:#363636;
+  margin:25px 20px;
+  overflow-x:scroll;
+  width:80%;
+}
+
+.chutzpah-source div
+{
+  white-space:nowrap;
+}
+
+.chutzpah-source span
+{
+  background-color:#EAEAEA;
+  color:#949494;
+  display:inline-block;
+  padding:0 10px;
+  text-align:center;
+}
+
+.chutzpah-source .miss
+{
+  background-color:#e6c3c7;
+}
+
+    </style>
+</head>
+<body>
+<div id='chutzpah-main'>
+	<div class='chutzpah chutzpah-title'>
+		<div class='chutzpah-cl chutzpah-file'>
+			<a href='http://chutzpah.codeplex.com/' target='_blank' class='chutzpah-logo'>Chutzpah</a> code coverage via <a href='http://blanketjs.org' target='_blank' class='chutzpah-logo'>blanket.js</a> results
+		</div>
+		<div class='chutzpah-cl rs'>
+			Coverage (%)
+		</div>
+		<div class='chutzpah-cl rs'>
+			Covered/Total Smts.
+		</div>
+		<div style='clear:both;'>
+		</div>
+	</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>1.</span><a href='javascript:chutzpah_toggleSource("file-1")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\core\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		5/5
+	</div>
+	<div id='file-1' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>1</span>var&nbsp;App;</div> <div class='hit'><span class=''>2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Core;</div> <div class='hit'><span class=''>4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Core)&nbsp;{</div> <div class='hit'><span class=''>5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(&#39;core&#39;,&nbsp;[&#39;ngAnimate&#39;,&nbsp;&#39;ngSanitize&#39;,&nbsp;&#39;ngMessages&#39;,&nbsp;&#39;ui.bootstrap&#39;,&nbsp;&#39;ui.router&#39;]);</div> <div class='{{executed}}'><span class=''>6</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Core&nbsp;=&nbsp;App.Core&nbsp;||&nbsp;(App.Core&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>7</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>8</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>2.</span><a href='javascript:chutzpah_toggleSource("file-2")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\models\flickr.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		20/20
+	</div>
+	<div id='file-2' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Models;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Models)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Flickr&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;Flickr()&nbsp;{</div> <div class=''><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;Flickr;</div> <div class=''><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models.Flickr&nbsp;=&nbsp;Flickr;</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoDetails&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;PhotoDetails()&nbsp;{</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;PhotoDetails;</div> <div class=''><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models.PhotoDetails&nbsp;=&nbsp;PhotoDetails;</div> <div class='hit'><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;MediaDetails&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;MediaDetails()&nbsp;{</div> <div class=''><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;MediaDetails;</div> <div class=''><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models.MediaDetails&nbsp;=&nbsp;MediaDetails;</div> <div class='hit'><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;FlickrJsonp&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;FlickrJsonp()&nbsp;{</div> <div class=''><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;FlickrJsonp;</div> <div class=''><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models.FlickrJsonp&nbsp;=&nbsp;FlickrJsonp;</div> <div class='{{executed}}'><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Models&nbsp;=&nbsp;App.Models&nbsp;||&nbsp;(App.Models&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>30</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>31</span>//#&nbsp;sourceMappingURL=flickr.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>3.</span><a href='javascript:chutzpah_toggleSource("file-3")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\models\item.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		8/8
+	</div>
+	<div id='file-3' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Models;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Models)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Item&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;Item()&nbsp;{</div> <div class=''><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;Item;</div> <div class=''><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models.Item&nbsp;=&nbsp;Item;</div> <div class='{{executed}}'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Models&nbsp;=&nbsp;App.Models&nbsp;||&nbsp;(App.Models&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>12</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>13</span>//#&nbsp;sourceMappingURL=item.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>4.</span><a href='javascript:chutzpah_toggleSource("file-4")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\dashboard\dashboard.service.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		71.43 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		15/21
+	</div>
+	<div id='file-4' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Dashboard;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Dashboard)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Services;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Services)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;DashboardService&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;DashboardService($http)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.$http&nbsp;=&nbsp;$http;</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.apiBaseUri&nbsp;=&nbsp;&#39;/Dashboard&#39;;</div> <div class=''><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DashboardService.prototype.getViewModel&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;this.$http.get(this.apiBaseUri&nbsp;+&nbsp;&#39;/GetProducts&#39;)</div> <div class=''><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.then(function&nbsp;(response)&nbsp;{</div> <div class='miss'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;response.data;</div> <div class=''><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DashboardService.prototype.getById&nbsp;=&nbsp;function&nbsp;(itemId)&nbsp;{</div> <div class='miss'><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;this.$http.get(this.apiBaseUri&nbsp;+&nbsp;&#39;/GetProduct&#39;,&nbsp;{&nbsp;params:&nbsp;{&nbsp;id:&nbsp;itemId&nbsp;}&nbsp;})</div> <div class=''><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.then(function&nbsp;(response)&nbsp;{</div> <div class='miss'><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;response.data;</div> <div class=''><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DashboardService.prototype.save&nbsp;=&nbsp;function&nbsp;(editItemViewModel)&nbsp;{</div> <div class='miss'><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;this.$http.post(this.apiBaseUri&nbsp;+&nbsp;&#39;/SaveItem&#39;,&nbsp;editItemViewModel)</div> <div class='miss'><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.then(function&nbsp;(response)&nbsp;{&nbsp;return&nbsp;response.data;&nbsp;});</div> <div class=''><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;DashboardService;</div> <div class=''><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services.DashboardService&nbsp;=&nbsp;DashboardService;</div> <div class='{{executed}}'><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})(Services&nbsp;=&nbsp;Dashboard.Services&nbsp;||&nbsp;(Dashboard.Services&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Dashboard&nbsp;=&nbsp;App.Dashboard&nbsp;||&nbsp;(App.Dashboard&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>33</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>34</span>//#&nbsp;sourceMappingURL=dashboard.service.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>5.</span><a href='javascript:chutzpah_toggleSource("file-5")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\item-editor\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		7/7
+	</div>
+	<div id='file-5' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ItemEditor;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(ItemEditor)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;DashboardService&nbsp;=&nbsp;App.Dashboard.Services.DashboardService;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ItemEditor.moduleName&nbsp;=&nbsp;&#39;itemEditor&#39;;</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(ItemEditor.moduleName,&nbsp;[&#39;core&#39;,&nbsp;&#39;toaster&#39;])</div> <div class='{{executed}}'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.service(&#39;DashboardService&#39;,&nbsp;DashboardService);</div> <div class='{{executed}}'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;})(ItemEditor&nbsp;=&nbsp;App.ItemEditor&nbsp;||&nbsp;(App.ItemEditor&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>10</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>11</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>6.</span><a href='javascript:chutzpah_toggleSource("file-6")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\item-editor\item-editor.controller.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		71.43 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		20/28
+	</div>
+	<div id='file-6' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ItemEditor;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(ItemEditor)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ItemEditorController&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;ItemEditorController(dashboardService,&nbsp;$stateParams,&nbsp;toaster)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dashboardService&nbsp;=&nbsp;dashboardService;</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.$stateParams&nbsp;=&nbsp;$stateParams;</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.toaster&nbsp;=&nbsp;toaster;</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.stateParams&nbsp;=&nbsp;$stateParams;</div> <div class=''><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ItemEditorController.prototype.$onInit&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.itemEditorViewModel&nbsp;=&nbsp;{</div> <div class=''><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Id:&nbsp;0,</div> <div class=''><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:&nbsp;&#39;&#39;,</div> <div class=''><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description:&nbsp;&#39;&#39;,</div> <div class=''><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price:&nbsp;0,</div> <div class=''><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ImageId:&nbsp;0,</div> <div class=''><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantity:&nbsp;0</div> <div class=''><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.getById();</div> <div class=''><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//if&nbsp;(this.$stateParams.itemId)&nbsp;{</div> <div class=''><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;this.getById();</div> <div class=''><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//}&nbsp;else&nbsp;{</div> <div class=''><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;this.toaster.info(&#39;Info&#39;,&nbsp;&#39;itemId&nbsp;is&nbsp;not&nbsp;available&#39;);&nbsp;</div> <div class=''><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//}</div> <div class=''><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ItemEditorController.prototype.getById&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;_this&nbsp;=&nbsp;this;</div> <div class='hit'><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(this.stateParams.itemId)&nbsp;{</div> <div class='miss'><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dashboardService.getById(this.stateParams.itemId).then(function&nbsp;(itemEditorViewModel)&nbsp;{</div> <div class='miss'><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.itemEditorViewModel&nbsp;=&nbsp;itemEditorViewModel;</div> <div class=''><span class=''>33</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>34</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>35</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</div> <div class='hit'><span class=''>36</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.toaster.info(&#39;Info&#39;,&nbsp;&#39;itemId&nbsp;is&nbsp;not&nbsp;available&#39;);</div> <div class=''><span class=''>37</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>38</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>39</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ItemEditorController.prototype.saveItem&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>40</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;_this&nbsp;=&nbsp;this;</div> <div class='miss'><span class=''>41</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dashboardService.save(this.itemEditorViewModel).then(function&nbsp;(saveInfo)&nbsp;{</div> <div class='miss'><span class=''>42</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(saveInfo&nbsp;!=&nbsp;null&nbsp;&amp;&amp;&nbsp;saveInfo&nbsp;==&nbsp;&quot;OK&quot;)&nbsp;{</div> <div class='miss'><span class=''>43</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.toaster.success(&#39;Success&#39;,&nbsp;&#39;Item&nbsp;was&nbsp;succesfully&nbsp;saved&nbsp;to&nbsp;our&nbsp;records.&nbsp;Thank&nbsp;you.&#39;);</div> <div class=''><span class=''>44</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>45</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</div> <div class='miss'><span class=''>46</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(saveInfo&nbsp;!=&nbsp;&quot;OK&quot;)&nbsp;{</div> <div class='miss'><span class=''>47</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.toaster.info(&#39;Info&#39;,&nbsp;&#39;Something&nbsp;went&nbsp;wrong.&nbsp;Please&nbsp;try&nbsp;again&#39;);</div> <div class=''><span class=''>48</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>49</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>50</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>51</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>52</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;ItemEditorController;</div> <div class=''><span class=''>53</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>54</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ItemEditor.ItemEditorController&nbsp;=&nbsp;ItemEditorController;</div> <div class='{{executed}}'><span class=''>55</span>&nbsp;&nbsp;&nbsp;&nbsp;})(ItemEditor&nbsp;=&nbsp;App.ItemEditor&nbsp;||&nbsp;(App.ItemEditor&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>56</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>57</span>//#&nbsp;sourceMappingURL=item-editor.controller.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>7.</span><a href='javascript:chutzpah_toggleSource("file-7")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\item-editor\item-editor.component.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		12/12
+	</div>
+	<div id='file-7' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ItemEditor;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(ItemEditor)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ItemEditorComponent&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;ItemEditorComponent()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.templateUrl&nbsp;=&nbsp;&#39;Scripts/app/item-editor/item-editor.component.html&#39;;</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.controller&nbsp;=&nbsp;[&#39;DashboardService&#39;,&nbsp;&#39;$stateParams&#39;,&nbsp;&#39;toaster&#39;,&nbsp;ItemEditor.ItemEditorController];</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bindings&nbsp;=&nbsp;{};</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;ItemEditorComponent;</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ItemEditor.ItemEditorComponent&nbsp;=&nbsp;ItemEditorComponent;</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(App.ItemEditor.moduleName).component(&#39;itemEditor&#39;,&nbsp;new&nbsp;ItemEditorComponent());</div> <div class='{{executed}}'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;})(ItemEditor&nbsp;=&nbsp;App.ItemEditor&nbsp;||&nbsp;(App.ItemEditor&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>16</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>17</span>//#&nbsp;sourceMappingURL=item-editor.component.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>8.</span><a href='javascript:chutzpah_toggleSource("file-8")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\dashboard\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		7/7
+	</div>
+	<div id='file-8' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Dashboard;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Dashboard)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;DashboardService&nbsp;=&nbsp;App.Dashboard.Services.DashboardService;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dashboard.moduleName&nbsp;=&nbsp;&#39;dashboard&#39;;</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(Dashboard.moduleName,&nbsp;[&#39;core&#39;,&nbsp;&#39;toaster&#39;,&nbsp;App.ItemEditor.moduleName])</div> <div class='{{executed}}'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.service(&#39;DashboardService&#39;,&nbsp;DashboardService);</div> <div class='{{executed}}'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Dashboard&nbsp;=&nbsp;App.Dashboard&nbsp;||&nbsp;(App.Dashboard&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>10</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>11</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-error'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>9.</span><a href='javascript:chutzpah_toggleSource("file-9")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\dashboard\dashboard.controller.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		50 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		10/20
+	</div>
+	<div id='file-9' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Dashboard;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Dashboard)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;DashBoardController&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;DashBoardController(dashboardService,&nbsp;toaster)&nbsp;{</div> <div class='miss'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dashboardService&nbsp;=&nbsp;dashboardService;</div> <div class='miss'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.toaster&nbsp;=&nbsp;toaster;</div> <div class=''><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DashBoardController.prototype.$onInit&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dashboardViewModel&nbsp;=&nbsp;{</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Id:&nbsp;0,</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:&nbsp;&#39;&#39;,</div> <div class=''><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description:&nbsp;&#39;&#39;,</div> <div class=''><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price:&nbsp;0,</div> <div class=''><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ImageId:&nbsp;0,</div> <div class=''><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantity:&nbsp;0</div> <div class=''><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='miss'><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.getViewModel();</div> <div class=''><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DashBoardController.prototype.getViewModel&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;_this&nbsp;=&nbsp;this;</div> <div class='miss'><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dashboardService.getViewModel().then(function&nbsp;(dashboardViewModel)&nbsp;{</div> <div class='miss'><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(dashboardViewModel&nbsp;!=&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.dashboardViewModel&nbsp;=&nbsp;dashboardViewModel;</div> <div class=''><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</div> <div class='miss'><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(dashboardViewModel&nbsp;==&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.toaster.info(&#39;Info&#39;,&nbsp;&#39;No&nbsp;data&nbsp;has&nbsp;been&nbsp;returned&nbsp;from&nbsp;the&nbsp;server&#39;);</div> <div class=''><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>33</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>34</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;DashBoardController;</div> <div class=''><span class=''>35</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>36</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dashboard.DashBoardController&nbsp;=&nbsp;DashBoardController;</div> <div class='{{executed}}'><span class=''>37</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Dashboard&nbsp;=&nbsp;App.Dashboard&nbsp;||&nbsp;(App.Dashboard&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>38</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>39</span>//#&nbsp;sourceMappingURL=dashboard.controller.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>10.</span><a href='javascript:chutzpah_toggleSource("file-10")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\dashboard\dashboard.component.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		12/12
+	</div>
+	<div id='file-10' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Dashboard;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Dashboard)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;DashBoardComponent&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;DashBoardComponent()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.templateUrl&nbsp;=&nbsp;&#39;Scripts/app/dashboard/dashboard.component.html&#39;;</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.controller&nbsp;=&nbsp;[&#39;DashboardService&#39;,&nbsp;&#39;toaster&#39;,&nbsp;Dashboard.DashBoardController];</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bindings&nbsp;=&nbsp;{};</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;DashBoardComponent;</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dashboard.DashBoardComponent&nbsp;=&nbsp;DashBoardComponent;</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(App.Dashboard.moduleName).component(&#39;dashboard&#39;,&nbsp;new&nbsp;DashBoardComponent());</div> <div class='{{executed}}'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Dashboard&nbsp;=&nbsp;App.Dashboard&nbsp;||&nbsp;(App.Dashboard&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>16</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>17</span>//#&nbsp;sourceMappingURL=dashboard.component.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>11.</span><a href='javascript:chutzpah_toggleSource("file-11")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\photo-stream\photo-stream.service.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		61.11 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		11/18
+	</div>
+	<div id='file-11' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Services;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Services)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamService&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;PhotoStreamService($http)&nbsp;{</div> <div class='miss'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.$http&nbsp;=&nbsp;$http;</div> <div class='miss'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.apiBaseUri&nbsp;=&nbsp;&#39;http://api.flickr.com/services/feeds/photos_public.gne&#39;;</div> <div class=''><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStreamService.prototype.getViewModel&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;apiCall&nbsp;=&nbsp;this.apiBaseUri&nbsp;+&nbsp;&quot;?jsoncallback=JSON_CALLBACK&quot;</div> <div class=''><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;&amp;tags=&quot;&nbsp;+&nbsp;encodeURIComponent(&#39;angularjs&#39;)</div> <div class=''><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;&amp;tagmode=&quot;&nbsp;+&nbsp;&#39;all&#39;</div> <div class=''><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;&amp;format=json&quot;;</div> <div class=''><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;send&nbsp;AJAX&nbsp;query&nbsp;to&nbsp;Flickr&nbsp;API</div> <div class='miss'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;this.$http.jsonp(apiCall)</div> <div class=''><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.success(function&nbsp;(data,&nbsp;status,&nbsp;headers,&nbsp;config)&nbsp;{</div> <div class='miss'><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(data&nbsp;!=&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;data;</div> <div class=''><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</div> <div class='miss'><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert(&#39;There&nbsp;is&nbsp;no&nbsp;data&nbsp;returned&#39;);</div> <div class=''><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;PhotoStreamService;</div> <div class=''><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services.PhotoStreamService&nbsp;=&nbsp;PhotoStreamService;</div> <div class='{{executed}}'><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})(Services&nbsp;=&nbsp;PhotoStream.Services&nbsp;||&nbsp;(PhotoStream.Services&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;App.PhotoStream&nbsp;||&nbsp;(App.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>33</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>34</span>//#&nbsp;sourceMappingURL=photo-stream.service.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>12.</span><a href='javascript:chutzpah_toggleSource("file-12")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\photo-stream\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		7/7
+	</div>
+	<div id='file-12' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamService&nbsp;=&nbsp;App.PhotoStream.Services.PhotoStreamService;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStream.moduleName&nbsp;=&nbsp;&#39;photoStream&#39;;</div> <div class=''><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//reference&nbsp;dependencies&nbsp;in&nbsp;square&nbsp;brackets</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(PhotoStream.moduleName,&nbsp;[&#39;core&#39;,&nbsp;&#39;toaster&#39;])</div> <div class='{{executed}}'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.service(&#39;PhotoStreamService&#39;,&nbsp;PhotoStreamService);</div> <div class='{{executed}}'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;App.PhotoStream&nbsp;||&nbsp;(App.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>11</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>12</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-error'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>13.</span><a href='javascript:chutzpah_toggleSource("file-13")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\photo-stream\photo-stream.controller.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		37.04 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		10/27
+	</div>
+	<div id='file-13' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamController&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;PhotoStreamController(photoStreamService,&nbsp;toaster)&nbsp;{</div> <div class='miss'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.photoStreamService&nbsp;=&nbsp;photoStreamService;</div> <div class='miss'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.toaster&nbsp;=&nbsp;toaster;</div> <div class=''><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStreamController.prototype.$onInit&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.photoStreamViewModel&nbsp;=&nbsp;{</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;{&nbsp;items:&nbsp;[]&nbsp;}</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='miss'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.getViewModel();</div> <div class=''><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStreamController.prototype.getViewModel&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;_this&nbsp;=&nbsp;this;</div> <div class='miss'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.photoStreamService.getViewModel().then(function&nbsp;(photoStreamViewModel)&nbsp;{</div> <div class='miss'><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.photoStreamViewModel&nbsp;=&nbsp;photoStreamViewModel;</div> <div class='miss'><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(_this.photoStreamViewModel&nbsp;!=&nbsp;null&nbsp;&amp;&amp;&nbsp;_this.photoStreamViewModel.data&nbsp;!=&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(var&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;_this.photoStreamViewModel.data.items.length;&nbsp;i++)&nbsp;{</div> <div class=''><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//remove&nbsp;quotes&nbsp;frome&nbsp;title,&nbsp;a&nbsp;bit&nbsp;excessive</div> <div class='miss'><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;author&nbsp;=&nbsp;_this.photoStreamViewModel.data.items[i].author;</div> <div class='miss'><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;removeQuotes&nbsp;=&nbsp;author.slice(author.indexOf(&#39;(&#39;)&nbsp;+&nbsp;1,&nbsp;author.indexOf(&#39;)&#39;));</div> <div class='miss'><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.photoStreamViewModel.data.items[i].author&nbsp;=&nbsp;removeQuotes.replace(/^&quot;(.*)&quot;$/,&nbsp;&#39;$1&#39;);</div> <div class=''><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//remove&nbsp;html&nbsp;tags&nbsp;and&nbsp;keywords</div> <div class='miss'><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;description&nbsp;=&nbsp;_this.photoStreamViewModel.data.items[i].description;</div> <div class='miss'><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;mainTitle&nbsp;=&nbsp;description.toString().slice(description.toString().indexOf(&#39;&quot;&nbsp;title=&quot;&#39;)&nbsp;+&nbsp;1,&nbsp;description.toString().indexOf(&#39;&quot;&gt;&lt;img&#39;));</div> <div class='miss'><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;result&nbsp;=&nbsp;_this.photoStreamViewModel.data.items[i].description&nbsp;=&nbsp;description.replace(/&lt;[^&gt;]*&gt;/g,&nbsp;&#39;&#39;)&nbsp;+&nbsp;mainTitle.replace(&#39;title=&quot;&#39;,&nbsp;&#39;&#39;);</div> <div class=''><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</div> <div class='miss'><span class=''>33</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(photoStreamViewModel&nbsp;==&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>34</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.toaster.info(&#39;Info&#39;,&nbsp;&#39;No&nbsp;data&nbsp;has&nbsp;been&nbsp;returned&nbsp;from&nbsp;the&nbsp;server&#39;);</div> <div class=''><span class=''>35</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>36</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>37</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>38</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>39</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;PhotoStreamController;</div> <div class=''><span class=''>40</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>41</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStream.PhotoStreamController&nbsp;=&nbsp;PhotoStreamController;</div> <div class='{{executed}}'><span class=''>42</span>&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;App.PhotoStream&nbsp;||&nbsp;(App.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>43</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>44</span>//#&nbsp;sourceMappingURL=photo-stream.controller.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>14.</span><a href='javascript:chutzpah_toggleSource("file-14")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\photo-stream\photo-stream.component.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		12/12
+	</div>
+	<div id='file-14' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamComponent&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;PhotoStreamComponent()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.templateUrl&nbsp;=&nbsp;&#39;Scripts/app/photo-stream/photo-stream.component.html&#39;;</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.controller&nbsp;=&nbsp;[&#39;PhotoStreamService&#39;,&nbsp;&#39;toaster&#39;,&nbsp;PhotoStream.PhotoStreamController];</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bindings&nbsp;=&nbsp;{};</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;PhotoStreamComponent;</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStream.PhotoStreamComponent&nbsp;=&nbsp;PhotoStreamComponent;</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(App.PhotoStream.moduleName).component(&#39;photoStream&#39;,&nbsp;new&nbsp;PhotoStreamComponent());</div> <div class='{{executed}}'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;App.PhotoStream&nbsp;||&nbsp;(App.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>16</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>17</span>//#&nbsp;sourceMappingURL=photo-stream.component.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>15.</span><a href='javascript:chutzpah_toggleSource("file-15")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		9/9
+	</div>
+	<div id='file-15' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;moduleDepenciesToCheck&nbsp;=&nbsp;[&#39;core&#39;,&nbsp;&#39;container&#39;,&nbsp;&#39;dashboard&#39;,&nbsp;&#39;itemEditor&#39;,&nbsp;&#39;photoStream&#39;];</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;appModuleDependencies&nbsp;=&nbsp;[];</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;moduleDepenciesToCheck.forEach(function&nbsp;(moduleName)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(angular.module(moduleName))&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appModuleDependencies.push(moduleName);</div> <div class=''><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catch&nbsp;(e)&nbsp;{</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;angular.module(&#39;app&#39;,&nbsp;appModuleDependencies)</div> <div class='{{executed}}'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.config([</div> <div class='{{executed}}'><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#39;$logProvider&#39;,&nbsp;&#39;$httpProvider&#39;,&nbsp;&#39;$provide&#39;,&nbsp;function&nbsp;($logProvider,&nbsp;$httpProvider,&nbsp;$provide)&nbsp;{</div> <div class='{{executed}}'><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='{{executed}}'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;]);</div> <div class='{{executed}}'><span class=''>19</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>20</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>16.</span><a href='javascript:chutzpah_toggleSource("file-16")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\webComponentSpa\webComponentSpa\Scripts\app\app.component.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		9/9
+	</div>
+	<div id='file-16' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;AppComponent&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;AppComponent()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bindings&nbsp;=&nbsp;{};</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.template&nbsp;=&nbsp;&quot;\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;toaster-container&nbsp;style=\&quot;top:&nbsp;50px;\&quot;&nbsp;toaster-options=\&quot;{&#39;position-class&#39;:&nbsp;&#39;toast-top-right&#39;,&nbsp;&#39;close-button&#39;:{&nbsp;&#39;toast-warning&#39;:&nbsp;true,&nbsp;&#39;toast-error&#39;:&nbsp;false,&nbsp;&#39;time-out&#39;:&nbsp;1500&nbsp;}&nbsp;}\&quot;&gt;&lt;/toaster-container&gt;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;toaster-container&nbsp;toaster-options=\&quot;{&#39;toaster-id&#39;:&nbsp;1,&nbsp;&#39;position-class&#39;:&nbsp;&#39;toast-bottom-right&#39;,&nbsp;&#39;close-button&#39;:{&nbsp;&#39;toast-warning&#39;:&nbsp;true,&nbsp;&#39;toast-error&#39;:&nbsp;false,&nbsp;&#39;time-out&#39;:&nbsp;1500&nbsp;},&nbsp;&#39;tap-to-dismiss&#39;:&nbsp;false&nbsp;}\&quot;&gt;&lt;/toaster-container&gt;\n&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;ui-view&gt;&lt;/div&gt;&quot;;</div> <div class=''><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;AppComponent;</div> <div class=''><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;App.AppComponent&nbsp;=&nbsp;AppComponent;</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;angular.module(&#39;app&#39;).component(&#39;app&#39;,&nbsp;new&nbsp;AppComponent());</div> <div class='{{executed}}'><span class=''>12</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>13</span>//#&nbsp;sourceMappingURL=app.component.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>17.</span><a href='javascript:chutzpah_toggleSource("file-17")'>Total</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		78.38 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		174/222
+	</div>
+	<div id='file-17' class='chutzpah-source' style='display:none;'>
+		
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+</div>
+</body>
+</html>
+

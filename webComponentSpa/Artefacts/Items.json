@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Name": "Angular and TypeScript",
+    "Description": "Complete set of information in relation of Angular and TypeScript development ",
+    "Price": 100.0,
+    "ImageId": 1,
+    "Quantity": 3
+  },
+  {
+    "Id": 2,
+    "Name": "Routing in MVC",
+    "Description": "Important concepts of routing in SPA",
+    "Price": 60.0,
+    "ImageId": 2,
+    "Quantity": 0
+  },
+  {
+    "Id": 3,
+    "Name": "Modular development",
+    "Description": "Looking into modular development of web application",
+    "Price": 70.0,
+    "ImageId": 3,
+    "Quantity": 0
+  },
+  {
+    "Id": 4,
+    "Name": "Advanced TypeScript",
+    "Description": "advanced concepts of TypeScript",
+    "Price": 75.0,
+    "ImageId": 4,
+    "Quantity": 1
+  },
+  {
+    "Id": 5,
+    "Name": "Angular 2",
+    "Description": "Introduction to Angular 2 structure",
+    "Price": 50.0,
+    "ImageId": 5,
+    "Quantity": 3
+  }
+]

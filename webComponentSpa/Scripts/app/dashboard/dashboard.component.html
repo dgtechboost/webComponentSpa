@@ -1,0 +1,52 @@
+﻿<div style="padding-bottom: 100%;">
+    <h1 class="page-header">Dashboard</h1>
+    <div class="row placeholders">
+        <div class="col-xs-6 col-sm-3 placeholder">
+            <img src="\Images\dashboardLabel\dashboardLabel.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+            <h4>Label</h4>
+            <span class="text-muted">Label Description</span>
+        </div>
+        <div class="col-xs-6 col-sm-3 placeholder">
+            <img src="\Images\dashboardLabel\dashboardLabel.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+            <h4>Label</h4>
+            <span class="text-muted">Label Description</span>
+        </div>
+        <div class="col-xs-6 col-sm-3 placeholder">
+            <img src="\Images\dashboardLabel\dashboardLabel.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+            <h4>Label</h4>
+            <span class="text-muted">Label Description</span>
+        </div>
+        <div class="col-xs-6 col-sm-3 placeholder">
+            <img src="\Images\dashboardLabel\dashboardLabel.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+            <h4>Label</h4>
+            <span class="text-muted">Label Description</span>
+        </div>
+    </div>
+
+    <h2 class="sub-header">Table with json data processed by MVC controller</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="item in $ctrl.dashboardViewModel track by $index">
+                    <td>{{item.Id}}</td>
+                    <td>{{item.Name}}</td>
+                    <td>{{item.Description}}</td>
+                    <td>{{item.Price}}</td>
+                    <td>
+                        <a class="btn btn-success" ui-sref="itemEditor({itemId:item.Id})">
+                            Edit
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

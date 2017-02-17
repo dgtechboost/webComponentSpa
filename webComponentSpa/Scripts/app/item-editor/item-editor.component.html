@@ -1,0 +1,41 @@
+﻿<div style="padding-bottom: 100%;">
+    <h2>Viewing {{$ctrl.itemEditorViewModel.Name}}</h2>
+    <div ng-if="$ctrl.itemEditorViewModel !== null">
+        <div class="col-sm-6 col-md-6 top-padding">
+            <!--<div class="thumbnail">-->
+                <img ng-src="Images/items/tutorial{{$ctrl.itemEditorViewModel.ImageId}}.png" alt="..." style="min-height: 330px; width: 500px;">
+            <!--</div>-->
+        </div>
+        <div class="col-sm-6 col-md-6 top-padding">
+            <data-ng-form name="$ctrl.itemEditForm" confirm-on-exit novalidate="novalidate" class="form-horizontal">
+                <fieldset class="col-sm-12">
+                    <div class="form-group">
+                        <label>Name: </label>
+                        <h1>{{$ctrl.itemEditorViewModel.Name}}</h1>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Description: </label>
+                        <div>{{$ctrl.itemEditorViewModel.Description}}</div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Price: </label>
+                        <span>£ {{$ctrl.itemEditorViewModel.Price}}</span>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Quantity:</label>
+                        <input type="number" min="0" max="5" ng-model="$ctrl.itemEditorViewModel.Quantity" />
+                    </div>
+                    <button ng-click="$ctrl.saveItem()" type="submit" class="btn btn-primary">Save</button>
+
+                </fieldset>
+            </data-ng-form>
+        </div>
+    </div>
+
+    <div ng-if="$ctrl.itemEditorViewModel == null">
+        <span>Item could not be found</span>
+    </div>
+</div>

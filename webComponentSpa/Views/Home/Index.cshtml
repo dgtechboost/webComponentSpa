@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Web Components Spa";
+}
+
+@using System.Web.Optimization
+
+@section head{
+    <base href="/" />
+}
+
+@Html.Partial("_SpaLayout")
+
+@section scripts{
+    @Scripts.Render("~/bundles/SpaSharedVendorScripts")
+    @Scripts.Render("~/bundles/SpaSharedAppCoreScripts")
+    @Scripts.Render("~/bundles/webComponentAppScripts")
+    @Scripts.Render("~/bundles/SpaSharedAppScripts")
+}
